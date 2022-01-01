@@ -1,0 +1,148 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    font-family: ridi-roboto,Apple SD Gothic Neo,"나눔고딕",Nanum Gothic,"돋움",Dotum,Helvetica Neue,arial,sans-serif;
+}
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: #ebf6ff;
+}
+
+/* 상단 배너 */
+.header-wrapper {
+    border-bottom: 1px solid #d6deeb;
+    display: block;
+}
+.logo-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+.logo-title a{
+    text-decoration: none;
+    color: #1f8ce6;
+    display: inline-block;
+    padding: 10px 14px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: .03em;
+}
+
+/* 본문 */
+
+section {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 60px 0 70px;
+}
+
+section .main {
+    padding: 24px 10px;
+    display: block;
+}
+
+h3 {
+    color: rgb(0, 119, 217);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 18px;
+    letter-spacing: -0.54px;
+    font-family: ridi-roboto,Apple SD Gothic Neo,"나눔고딕",Nanum Gothic,"돋움",Dotum,Helvetica Neue,arial,sans-serif;
+}
+.image {
+    display: block;
+    text-align: center;
+}
+
+.main img {
+    margin-top: -3px;
+    margin: 16px auto;
+    width: 110px;
+    height: 129px;
+}
+
+.caption {
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+label {
+    display: inline-block;
+}
+
+
+input[type="checkbox"] {
+    position: fixed;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    border: 1px solid rgb(209, 213, 217);
+    background: white;
+}
+
+label span {
+    cursor: pointer;
+    margin-left: 26px;
+    margin-right: 10px;
+    color: rgb(48, 53, 56);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+}
+
+
+button[type="submit"] {
+    display: block;
+    outline: none;
+    letter-spacing: -0.03em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 1em;
+    width: 100%;
+    font-size: 16px;
+    padding: 16px 34px;
+    color: white;
+    background: rgb(31, 140, 230);
+    border: 1px solid rgb(0, 119, 217);
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    outline: none;
+    letter-spacing: -0.03em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 1em;
+    width: 100%;
+    font-size: 16px;
+    padding: 16px 34px;
+    color: white;
+    background: rgb(125, 142, 158);
+    border: 1px solid rgb(99, 108, 115);
+}
+
+p {
+    margin-top: 19px;
+    color: rgb(125, 142, 158);
+    font-size: 13px;
+    line-height: 1.4em;
+    text-align: center;
+    letter-spacing: -0.03em;
+}

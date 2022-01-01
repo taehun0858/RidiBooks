@@ -1,0 +1,170 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    font-family: ridi-roboto,Apple SD Gothic Neo,"나눔고딕",Nanum Gothic,"돋움",Dotum,Helvetica Neue,arial,sans-serif;
+}
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: #ebf6ff;
+}
+
+/* 상단 배너 */
+.header-wrapper {
+    border-bottom: 1px solid #d6deeb;
+    display: block;
+}
+.logo-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+.logo-title a{
+    text-decoration: none;
+    color: #1f8ce6;
+    display: inline-block;
+    padding: 10px 14px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: .03em;
+}
+
+/* 본문 */
+
+.main {
+    width: 360px;
+    margin: 0 auto;
+    padding: 60px 0 70px;
+    display: block;
+}
+
+.content-wrapper {
+    padding: 24px 10px;
+    margin: 0;
+}
+
+.content-wrapper .input-group {
+    margin-bottom: 10px;
+}
+
+.input-group .account-label {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+
+.account-label input {
+    width: 100%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    letter-spacing: .03em;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 14px 18px;
+    overflow: hidden;
+    border: 1px solid #d6deeb;
+    border-radius: 0;
+    background: #fff;
+    color: #313538;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+    box-shadow: none;
+}
+
+.account-label input:focus {
+    border: 1px solid #1f8ce6;
+}
+
+.remember-group {
+    margin-top: -1px;
+    padding: 8px 8px 13px 16px;
+    overflow: hidden;
+    border: 1px solid #d6deeb;
+    border-radius: 0 0 4px 4px;
+    background: #f7fbff;
+    color: #666;
+    font-size: 12px;
+    line-height: 1em;
+    letter-spacing: .03em;
+    margin: 0;
+}
+
+.account-checkbox .link {
+    margin-left: 14px;
+    padding-top: 7px;
+    float: right;
+    color: #666;
+    font-size: 12px;
+    line-height: 1em;
+    letter-spacing: .03em;
+}
+
+.link a {
+    display: block;
+    padding: 0 6px;
+    float: left;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #738096;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.link .border {
+    border-left: 1px solid #dfdfdf;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #b6c1cb;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgb(115, 128, 150 / 20%);
+    display: inline-block;
+    margin-top: 1px;
+}
+
+button {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    letter-spacing: .03em;
+    margin: 0;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 700;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1em;
+}
+
+.loginbtn {
+    color: #fff;
+    background: #1f8ce6;
+    border: 1px solid #0077d9;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgb(209, 213, 217 / 30%);
+}
+
+.signupbtn {
+    background: #fff;
+    outline: none;
+    border: 1px solid #d1d5d9;
+    font-size: 16px;
+    color: #808991;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px 0 rgb(209, 213, 217 / 30%);
+    cursor: pointer;
+}
