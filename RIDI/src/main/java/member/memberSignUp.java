@@ -18,7 +18,7 @@ import dbms.DBMS;
 
 // 14세 이상 회원가입 기능
 
-@WebServlet("/member/signUp")
+@WebServlet("/member/signup")
 public class memberSignUp extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -35,8 +35,9 @@ public class memberSignUp extends HttpServlet {
 		// DB(ridibooks)에 접속
 		
 		try {
-			String sql = "INSERT INTO member(Id, Pw, Email, Name, Birth, Sex, Agree) VALUES (?,?,?,?,?,?,?)";
 			//DB에 입력한 파라미터값들을 넣어서 회원 정보를 저장
+			String sql = "INSERT INTO member(Id, Pw, Email, Name, Birth, Sex, Agree) VALUES (?,?,?,?,?,?,?)";
+			
 			
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, Id);
@@ -59,7 +60,7 @@ public class memberSignUp extends HttpServlet {
 		
 		response.setStatus(200);
 		// 회원가입이 성공했을 때 상태코드에 200을 반환해줌
-		RequestDispatcher rd = request.getRequestDispatcher("로그인 페이지");
+		RequestDispatcher rd = request.getRequestDispatcher("로그인 페이지url");
 		// 회원가입 성공시 로그인 페이지로 이동
 		rd.forward(request, response);
 	}

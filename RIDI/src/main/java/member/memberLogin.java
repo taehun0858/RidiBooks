@@ -31,7 +31,7 @@ public class memberLogin extends HttpServlet {
 		
 		try {
 			//DB에 입력한 ID에 해당하는 정보가 있는지 확인
-			String sql = "SELECT * FROM member WHERE id=?";
+			String sql = "SELECT * FROM member WHERE Id=?";
 						
 			PreparedStatement selectpstmt = conn.prepareStatement(sql);
 			selectpstmt.setString(1, Id);		
@@ -55,7 +55,7 @@ public class memberLogin extends HttpServlet {
 					
 					response.setStatus(200);
 					// 로그인 성공시 상태코드에 200을 전달
-					RequestDispatcher rd = request.getRequestDispatcher("메인 페이지");
+					RequestDispatcher rd = request.getRequestDispatcher("메인 페이지url");
 					// 로그인 성공시 메인 페이지로 이동
 					rd.forward(request, response);
 					
