@@ -1,0 +1,114 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    font-family: ridi-roboto,Apple SD Gothic Neo,"나눔고딕",Nanum Gothic,"돋움",Dotum,Helvetica Neue,arial,sans-serif;
+}
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: #ebf6ff;
+}
+
+/* 상단 배너 */
+.header-wrapper {
+    border-bottom: 1px solid #d6deeb;
+    display: block;
+}
+.logo-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+.logo-title a{
+    text-decoration: none;
+    color: #1f8ce6;
+    display: inline-block;
+    padding: 10px 14px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: .03em;
+}
+
+/* 본문 */
+.main {
+    display: block;
+    max-width: 360px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.content-wrapper {
+    padding: 30px 10px;
+}
+
+.image {
+    margin: 20px;
+}
+
+img {
+    width: 300px;
+    height: 232px;
+}
+
+button {
+    display: block;
+    height: 50px;
+    position: relative;
+    letter-spacing: -0.03em;
+    border-radius: 4px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    padding: 13px 34px;
+    padding-bottom: 0px;
+    margin: 10px 0;
+    line-height: 1em;
+}
+
+.signup {
+    color: white;
+    background: #1f8ce6;
+    border: 1px solid #0077d9;
+    box-shadow: 0 2px 4px 0 rgb(31, 140, 230 / 30%);
+    padding-bottom: 13px;
+}
+
+.login {
+    color: #808991;
+    background: white;
+    border: 2px solid rgba(209, 213, 217, 1);
+    box-shadow: 0 2px 4px 0 rgb(209, 213, 217 / 30%);
+    padding-bottom: 13px;
+}
+
+.signup14 {
+    color: #8c9dad;
+    fill: #8c9dad;
+    text-align: center;
+    margin-top: 24px;
+}
+
+button[type="button"] {
+    display: inline-block;
+    padding: 6px;
+    letter-spacing: -0.03em;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+    color: #8c9dad;
+    border: none;
+    font-size: 13px;
+    height: 27px;
+}
+
+b {
+    font-weight: bolder;
+}
