@@ -47,7 +47,7 @@ public class MemberService {
 		member.setName(Name);
 		member.setBirth(Birth);
 		member.setSex(Sex.charAt(0));
-		member.setEmail(Email);
+		member.setEmail(Email); 
 		// LocalDateTime M_date = LocalDateTime.now();
 		// member.setM_Date(M_date); 
 		// 회원가입한 날짜와 시간 인데 시간이 안들어감(형식이 Date이니까) 
