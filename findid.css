@@ -1,0 +1,117 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    font-family: ridi-roboto,Apple SD Gothic Neo,"나눔고딕",Nanum Gothic,"돋움",Dotum,Helvetica Neue,arial,sans-serif;
+}
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: #ebf6ff;
+}
+
+/* 상단 배너 */
+.header-wrapper {
+    border-bottom: 1px solid #d6deeb;
+    display: block;
+}
+.logo-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+.logo-title a{
+    text-decoration: none;
+    color: #1f8ce6;
+    display: inline-block;
+    padding: 10px 14px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: .03em;
+}
+
+/* 본문 */
+
+section {
+    width: 360px;
+    margin: 0 auto;
+    padding: 60px 0 70px;
+}
+
+.account-form {
+    padding: 0 10px;
+}
+
+h2 {
+    margin: 0;
+    padding-bottom: 12px;
+    color: #0077d9;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -.03em;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 12px;
+    line-height: 1em;
+    letter-spacing: -.03em;
+}
+
+label {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 14px 18px;
+    border: 1px solid #d6deeb;
+    background: #fff;
+    color: #313538;
+    font-size: 15px;
+    line-height: normal;
+    box-shadow: none;
+}
+
+button {
+    margin-top: 12px;
+    box-shadow: 0 2px 4px 0 rgb(31, 140, 230 / 30%);
+    display: block;
+    width: 100%;
+    padding: 13px 0;
+    color: #fff;
+    background: #1f8ce6;
+    border: 1px solid #0077d9;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    height: 50px;
+}
+
+p {
+   font-size: 12px;
+   padding: 12px;
+   color: #636c73;
+   margin: 0;
+   line-height: 1.5em;
+   text-align: center; 
+}
+
+a {
+    margin-left: 3px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #666;
+}
