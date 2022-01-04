@@ -1,0 +1,284 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    font-family: ridi-roboto,Apple SD Gothic Neo,"나눔고딕",Nanum Gothic,"돋움",Dotum,Helvetica Neue,arial,sans-serif;
+}
+
+body {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: #ebf6ff;
+}
+
+/* 상단 배너 */
+.header-wrapper {
+    border-bottom: 1px solid #d6deeb;
+    display: block;
+}
+.logo-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+.logo-title a{
+    text-decoration: none;
+    color: #1f8ce6;
+    display: inline-block;
+    padding: 10px 14px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: .03em;
+}
+
+/* 본문 */
+.main {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 60px 0 70px;
+}
+
+form {
+    padding: 10px;
+}
+
+.userinput {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    margin-bottom: 10px;
+}
+.userinfo {
+    display: none;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    font-size: 15px;
+    pointer-events: none;
+    transition: all 0.2s ease 0s;
+    user-select: none;
+    color: rgb(31, 140, 230);
+    z-index: 3;
+
+}
+
+.userinfo:focus {
+    display: block;
+    transform: translateY(-12px) scale(0.7);
+    transform-origin: left center;
+}
+
+
+input {
+    font-family: Helvetica Neue,Apple SD Gothic Neo,arial,나눔고딕,Nanum Gothic,돋움,Dotum,Tahoma,Geneva,sans-serif;
+    display: block;
+    position: relative;
+    width: 94%;
+    padding: 21px 10px 8px;
+    border: 1px solid #d6deeb;
+    background: white;
+    color: #738096;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 0;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #1f8ce6;
+    
+}
+.userpw-re {
+    margin-top: -10px;
+}
+
+.useremail {
+    margin-top: 10px;
+}
+
+p {
+    font-size: 12px;
+    padding: 6px 1px;
+    color: #94a2b8;
+    letter-spacing: -0.03em;
+    margin: 0;
+}
+
+.birth {
+    display: flex;
+}
+
+.userbirth {
+    margin-bottom: -1px;
+    color: #738096;
+    width: 50%;
+}
+
+.bgender {
+    display: flex;
+    width: 50%;
+    padding-left: 6px;
+    box-sizing: border-box;
+}
+
+.bgender label {
+    display: flex;
+    width: 50%;
+    height: 48px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #d6deeb;
+    background-color: white;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0px;
+    overflow: hidden;
+    border: 0px;
+}
+
+.gcheck {
+    color: rgb(115, 128, 150);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin: 15px 30px;
+}
+
+label:active {
+    border: 1px solid rgb(214, 222, 235);
+    background-color: rgb(219, 239, 255);
+}
+
+label:hover {
+    border: 1px solid #9ea7ad;
+}
+
+input:hover{
+    border: 1px solid #9ea7ad;
+}
+
+.terms {
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.contain {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    display: block;
+    padding: 13px 15px;
+    border-bottom: 1px solid rgb(214, 222, 235);
+    border: 1px solid rgb(214, 222, 235);
+    background: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.fig-16m6ba2 {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    fill: rgb(214, 222, 235);
+}
+
+.fig-16m6ba2:active {
+    fill: rgb(31, 140, 230);
+}
+
+.agree-terms {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0px;
+    overflow: hidden;
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+}
+
+.allterms {
+    margin-left: 8px;
+    vertical-align: middle;
+    color: rgb(115, 128, 150);
+}
+
+.allterms:hover {
+    cursor: pointer;
+    color: #303538;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    cursor: pointer;
+}
+.termsbox {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    padding: 8px 15px;
+    cursor: pointer;
+    background: white;
+    border-left: 1px solid rgb(214, 222, 235);
+    border-right: 1px solid rgb(214, 222, 235);
+    border-top: none;
+    border-bottom: none;
+    margin: 0;
+    padding-left: 30px;
+    color: #738096;
+    cursor: pointer;
+}
+
+.termsbox:last-child {
+    border-bottom: 1px solid rgb(214, 222, 235);
+    padding: 13px 15px;
+}
+
+.ulterms:hover {
+    cursor: pointer;
+    color: #303538;
+}
+
+.tcheck {
+    text-decoration: none;
+    position: absolute;
+    top: 31%;
+    left: auto;
+    right: 15px;
+    font-size: 12px;
+    color: rgb(128, 167, 173);
+    cursor: pointer;
+}
+
+.tcheck:hover {
+    color: #7380a4;
+}
+
+button[type="submit"] {
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 34px;
+    color: white;
+    background: rgb(31, 140, 230);
+    border: 1px solid rgb(0, 119, 217);
+    margin-top: 15px;
+    box-shadow: rgb(209, 213, 217 / 30%) 0px 1px 1px 0px;
+}
